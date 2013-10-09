@@ -10,10 +10,11 @@
     <file path="/Node.java" changelist="7956b7f7-2a49-448b-8854-efd477822ab8" time="1381250622303" ignored="false" />
     <file path="/BestFirstSearch.java" changelist="7956b7f7-2a49-448b-8854-efd477822ab8" time="1381264110692" ignored="false" />
     <file path="/LinearCheckersBFS.java" changelist="7956b7f7-2a49-448b-8854-efd477822ab8" time="1381254301836" ignored="false" />
-    <file path="/LinearCheckersBoard.java" changelist="7956b7f7-2a49-448b-8854-efd477822ab8" time="1381265312252" ignored="false" />
+    <file path="/LinearCheckersBoard.java" changelist="7956b7f7-2a49-448b-8854-efd477822ab8" time="1381324516362" ignored="false" />
     <file path="/LinearCheckers.java" changelist="7956b7f7-2a49-448b-8854-efd477822ab8" time="1381265520152" ignored="false" />
-    <file path="/AStar.java" changelist="7956b7f7-2a49-448b-8854-efd477822ab8" time="1381265538940" ignored="false" />
-    <file path="/fragment.java" changelist="7956b7f7-2a49-448b-8854-efd477822ab8" time="1381265467665" ignored="false" />
+    <file path="/AStar.java" changelist="7956b7f7-2a49-448b-8854-efd477822ab8" time="1381308493070" ignored="false" />
+    <file path="/fragment.java" changelist="7956b7f7-2a49-448b-8854-efd477822ab8" time="1381324353418" ignored="false" />
+    <file path="/LinearCheckersAStar.java" changelist="7956b7f7-2a49-448b-8854-efd477822ab8" time="1381308277512" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,26 +75,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LinearCheckersBoard.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinearCheckersBoard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LinearCheckersAStar.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinearCheckersAStar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#2048#2075#0" expanded="true" />
-                <element signature="e#2628#2649#0" expanded="true" />
-                <element signature="e#3089#3110#0" expanded="true" />
-                <element signature="e#3539#3560#0" expanded="true" />
-                <element signature="e#3998#4019#0" expanded="true" />
-              </folding>
+            <state line="32" column="30" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,14 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AStar.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AStar.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AStar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="61" selection-start="1471" selection-end="1471" vertical-scroll-proportion="1.0272512">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#5510#5519#0" expanded="true" />
-              </folding>
+            <state line="56" column="31" selection-start="1576" selection-end="1576" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,7 +105,7 @@
       <file leaf-file-name="Node.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="70" selection-start="208" selection-end="208" vertical-scroll-proportion="-6.8">
+            <state line="21" column="25" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,6 +115,15 @@
         <entry file="file://$PROJECT_DIR$/src/State.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="32" column="70" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinearCheckersBoard.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LinearCheckersBoard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="94" column="0" selection-start="2534" selection-end="2534" vertical-scroll-proportion="1.864644">
               <folding />
             </state>
           </provider>
@@ -153,11 +145,11 @@
         <option value="$PROJECT_DIR$/src/Node.java" />
         <option value="$PROJECT_DIR$/src/BestFirstSearch.java" />
         <option value="$PROJECT_DIR$/src/LinearCheckersBFS.java" />
-        <option value="$PROJECT_DIR$/src/LinearCheckersAStar.java" />
-        <option value="$PROJECT_DIR$/src/LinearCheckersBoard.java" />
         <option value="$PROJECT_DIR$/src/LinearCheckers.java" />
         <option value="$PROJECT_DIR$/src/AStar/AStar.java" />
+        <option value="$PROJECT_DIR$/src/LinearCheckersAStar.java" />
         <option value="$PROJECT_DIR$/src/AStar.java" />
+        <option value="$PROJECT_DIR$/src/LinearCheckersBoard.java" />
       </list>
     </option>
   </component>
@@ -180,7 +172,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -191,59 +183,22 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LinearCheckers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LinearCheckers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LinearCheckers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LinearCheckers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LinearCheckers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="fileTemplates" />
+    <property name="options.lastSelected" value="editing.templates" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="Application.LinearCheckers">
     <configuration default="false" name="LinearCheckers" type="Application" factoryName="Application" temporary="true">
@@ -276,19 +231,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -314,6 +256,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -364,6 +319,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7956b7f7-2a49-448b-8854-efd477822ab8" name="Default" comment="" />
@@ -399,13 +371,11 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272933" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -414,6 +384,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44847113" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272933" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -493,10 +465,7 @@
     <entry file="file://$PROJECT_DIR$/src/AStar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="938" selection-end="938" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5510#5519#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -524,13 +493,7 @@
     <entry file="file://$PROJECT_DIR$/src/LinearCheckersAStar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="123" column="28" selection-start="5044" selection-end="5044" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2048#2075#0" expanded="true" />
-            <element signature="e#2628#2649#0" expanded="true" />
-            <element signature="e#3089#3110#0" expanded="true" />
-            <element signature="e#3539#3560#0" expanded="true" />
-            <element signature="e#3998#4019#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -544,10 +507,7 @@
     <entry file="file://$PROJECT_DIR$/src/AStar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="114" column="69" selection-start="3754" selection-end="3754" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5510#5519#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -565,29 +525,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinearCheckersBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinearCheckersAStar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2048#2075#0" expanded="true" />
-            <element signature="e#2628#2649#0" expanded="true" />
-            <element signature="e#3089#3110#0" expanded="true" />
-            <element signature="e#3539#3560#0" expanded="true" />
-            <element signature="e#3998#4019#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="70" selection-start="208" selection-end="208" vertical-scroll-proportion="-6.8">
+        <state line="21" column="25" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -595,6 +535,13 @@
     <entry file="file://$PROJECT_DIR$/src/State.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="70" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinearCheckersAStar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="30" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -608,11 +555,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AStar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="61" selection-start="1471" selection-end="1471" vertical-scroll-proportion="1.0272512">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5510#5519#0" expanded="true" />
-          </folding>
+        <state line="56" column="31" selection-start="1576" selection-end="1576" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinearCheckersBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="0" selection-start="2534" selection-end="2534" vertical-scroll-proportion="1.864644">
+          <folding />
         </state>
       </provider>
     </entry>

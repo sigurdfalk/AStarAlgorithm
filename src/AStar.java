@@ -27,17 +27,21 @@ public abstract class AStar<T> {
         this.generatedNodes = new Hashtable<Integer, Node<T>>();
     }
 
-    /**
-     * Performs A* search
-     * @return Node representing the solution of the search
-     */
-    public Node<T> search() {
+    private void initializeSearch() {
         Node<T> root = createRootNode();
         root.setG(0);
         root.setH(heuristicEvaluation(root));
         root.setF(root.getG(), root.getH());
         addToOpen(root);
         generatedNodes.put(root.getState().getIdentifier(), root);
+    }
+
+    /**
+     * Performs A* search
+     * @return Node representing the solution of the search
+     */
+    public Node<T> search() {
+        initializeSearch();
 
         while (!open.isEmpty()) {
             Node<T> node = open.remove(0);

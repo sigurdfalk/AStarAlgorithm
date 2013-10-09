@@ -30,7 +30,7 @@ public class LinearCheckersAStar extends AStar<LinearCheckersBoard> {
         int evaluation = 0;
 
         if (isSolution(node)) {
-            return 0;
+            return evaluation;
         }
 
         LinearCheckersBoard boardClone = node.getState().getObject().clone();
